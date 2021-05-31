@@ -26,6 +26,7 @@ API_KEY="<api-key-here>"
 - Then run docker commands to build app within the root directory
 ```
 docker build -t weather-api .
+
 #Upload to docker hub
 docker tag weather-api fayez74/weather-api
 docker push fayez74/weather-api
